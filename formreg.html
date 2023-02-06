@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/form.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="register-form">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="grid">
+                <nav class="header__reg">
+                    <ul class="header__reg-list">
+                        <li class="header__reg-item"> 
+                            <a href="./index.html"><img src="./asset/img/shopee.svg" alt="" class="header__reg-img"></a>
+                            <p class="header__reg-content">Đăng ký</p>
+                            <!-- <p class="header__reg-content">Đăng nhập</p> -->
+                        </li>
+                        <li class="header__reg-item"> 
+                            <a href="" class="header__reg-helpform">Bạn cần giúp đỡ?</a>
+                        </li>
+                     </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="content">
+                    
+            <div class="content__body">
+                <!-- Unlog in -->
+                <div class="content__body-container unlogin">
+                    <div class="content__body-container--form">
+                        <div class="content__form-header"><p>Đăng ký</p></div>
+                        <div class="content__form-containter">
+                            <div class="content__form-container--fstgroup">
+                                <div class="form__tel-holder">
+                                    <input type="tel" placeholder="Số điện thoại" id="" class="form__btn">
+                                </div>
+                                <button class="btn btn-form">TIẾP THEO</button>
+                            </div>
+
+                            <div class="content__form-container--scdgroup">
+                                <div class="form__ruler-border"></div>
+                                <span>HOẶC</span>
+                                <div class="form__ruler-border"></div>
+                            </div>
+
+                            <div class="content__form-container--thdgroup">
+                                <div class="form__icon-link--btn">
+                                    <button class="btn form__icon">
+                                        <div class="fa-brands ffacebook"></div>
+                                        <span>Facebook</span>
+                                    </button>
+                                    
+                                    <button class="btn form__icon">
+                                        <div class="fa-brands ffgoogle"></div>
+                                        <span>Google</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="form__author">
+                                <span>Bằng việc đăng kí, bạn đã đồng ý với Shopee về</span>
+                                <a href="" class="form__author-btn">
+                                    Điều khoản dịch vụ
+                                </a>
+                                &
+                                <a href="" class="form__author-btn">
+                                    Chính sách bảo mật
+                                </a>
+
+                            </div>
+
+                        </div>
+                        <div class="content__form-footer">
+                            <div class="content__form-footer--group">
+                                <span>Bạn đã có tài khoản? </span>
+                                <a href="">Đăng nhập</a> 
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                 <!-- Loged in -->
+                 <!-- <div class="content__body-container logged-in">
+                    <div class="content__body-container--form">
+                        <div class="content__form-header-login>
+                            <p class="login">Đăng nhập</p>
+                            <div class="login__qr"><p>Đăng nhập với mã QR</p></div>
+                            <i class="fa-solid fa-qrcode fa-icon"></i>
+                        </div>
+                        <div class="content__form-containter">
+                            <div class="content__form-container--fstgroup">
+                                <div class="form__account-holder">
+                                    <input type="text" placeholder="Email/Số điện thoại/Tên đăng nhập" id="" class="form__btn">
+                                </div>
+                                <div class="form__pass-holder">
+                                    <input type="password" placeholder="Mật khẩu" id="" class="form__btn">
+                                </div>
+                                <button class="btn btn-form btn-login">ĐĂNG NHẬP</button>
+                                <div class="login__control">
+                                    <a href="" class="login__control-link">Quên mật khẩu</a>
+                                    <a href="" class="login__control-link">Đăng nhập với sms</a>
+                                </div>
+                            </div>
+
+                            <div class="content__form-container--scdgroup">
+                                <div class="form__ruler-border"></div>
+                                <span>HOẶC</span>
+                                <div class="form__ruler-border"></div>
+                            </div>
+
+                            <div class="content__form-container--thdgroup">
+                                <div class="form__icon-link--btn">
+                                    <button class="btn form__icon">
+                                        <div class="fa-brands ffacebook"></div>
+                                        <span>Facebook</span>
+                                    </button>
+                                    
+                                    <button class="btn form__icon">
+                                        <div class="fa-brands ffgoogle"></div>
+                                        <span>Google</span>
+                                    </button>
+
+                                    <button class="btn form__icon">
+                                        <div class="fa-brands ffapple"></div>
+                                        <span>Apple</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="content__form-footer">
+                            <div class="content__form-footer--group">
+                                <span>Bạn mới biết đến Shopee? </span>
+                                <a href="">Đăng ký</a> 
+                            </div>
+                        </div>
+                    </div>
+                
+                </div> -->
+            </div>
+                   
+        </div>
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+</body>
+</html>

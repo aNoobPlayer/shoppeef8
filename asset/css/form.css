@@ -1,0 +1,306 @@
+.header{
+    height: 84px;
+}
+
+.header__reg-list{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+}
+.header__reg-img{
+    max-height: 40px;
+    margin-top: 6.5px;
+}
+
+.header__reg-content{
+    font-size: 2.4rem;
+    padding-left: 10px;
+    float: right;
+}
+
+.header__reg-helpform{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+/* Content */
+.content{    
+    min-height: 600px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.content__body{
+    margin: 0 auto;
+    min-height: 600px;
+    width: 1040px;
+    background-image: url("https://cf.shopee.vn/file/sg-11134004-23010-qacwpnvb05lve3");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.content__body-container{
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+    border-radius: 4px;
+    overflow: hidden;
+}
+.content__body-container--form{
+    background-color: var(--white-color);
+    height: 100%;
+    width: 400px;
+}
+
+.logged-in{
+    height: 482px;
+}
+
+.unlogin{
+    height: 430px;
+}
+
+.content__body-form-list{
+    list-style: none;
+}
+
+.content__form-header{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content__form-header-login{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 30px;
+}
+
+.login__qr{
+    display: flex;
+    max-width: 159px;
+    background-color: #fefaec;
+    border:2px solid  #ffbf00;
+}
+
+.login__qr > p{
+    color: rgb(255, 191, 0);
+    font-weight: 700;
+    position: relative;
+    font-size: 1.4rem;
+    padding: 6px 15px;
+    margin: 6px 0px
+}
+
+.login__qr>p::after{
+    position: absolute;
+    content: "";
+    box-sizing: border-box;
+    width: 10.4px;
+    height: 10.4px;
+    background-color: #fefaec;
+    transform: rotate(45deg) translateX(-50%);
+    border-top: 2px solid #ffbf00;
+    border-right: 2px solid #ffbf00;
+    top: 50%;
+    right: -7%;
+}
+
+.fa-qrcode{
+    font-size: 46px;
+    color: var(--primary-color);
+    position: relative;
+}
+
+.fa-icon::after{
+    content: "";
+    position: absolute;
+    border: 20px solid;
+    bottom: -6%;
+    left: -15%;
+    border-color: transparent transparent var(--white-color) var(--white-color);
+}
+
+.content__form-header > p{
+    padding: 22px 30px;
+    margin: 8px 0;
+}
+
+.content__form-header-login > .login{
+    padding: 22px 0;
+    margin: 8px 0;
+}
+
+.content__form-containter{
+    padding: 0 30px;
+}
+
+.content__form-container--fstgroup{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__account-holder,
+.form__pass-holder,
+.form__tel-holder{
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,.14);
+    border-radius: 2px;
+    box-shadow: inset 0 2px 0 rgb(0 0 0 / 2%);
+}
+.form__account-holder{
+    margin-bottom: 30px;
+}
+.form__pass-holder{
+    margin-bottom: 4px;
+}
+.form__tel-holder:focus{
+    box-shadow: inset 0 2px 0 rgb(0 0 0 / 40%);
+    border: 1px solid #888;
+}
+
+.form__btn{
+    width: 100%;
+    height: 40px;
+    font-size: 1.4rem;
+    border: none;
+    padding: 12px;
+}
+
+.form__btn::placeholder{
+    color: rgba(0,0,0,.26);
+}
+
+.btn{
+    height: 40px;
+}
+
+.btn.btn-form{
+    width: 100%;
+    margin: 30px 0;
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.btn-login{
+    margin-bottom: 0;
+}
+
+.login__control{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.login__control-link{
+    color: #05a;
+}
+
+.content__form-container--scdgroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content__form-container--scdgroup > span{
+    padding: 0 14px;
+    font-size: 1.2rem;
+    color: var(--border-color);
+}
+.form__ruler-border{
+    height: 2px;
+    width: 100%;
+    background-color: #dbdbdb;
+    flex: 1;
+    line-height: 13px;  
+}
+
+.content__form-container--thdgroup{
+    padding: 20px 0;
+}
+.form__icon-link--btn{
+    display: flex;
+    justify-content: space-between; 
+}
+.btn.form__icon{
+    background-color: var(--white-color);
+    width: 165px;
+    font-size: 1.4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0,0,0,.26);
+    margin: 0 5px;
+}
+
+.btn.form__icon:hover{
+    background-color: rgb(217, 217, 217);
+    cursor: pointer;
+}
+.btn.form__icon>span{
+    text-align: center;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.fa-brands{
+    width: 22px;
+    height: 22px;
+}
+.ffacebook{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7b95007f3377150730bbb5d1ddb477d6.png);
+    background-size: 325% 287.5%;
+    background-position: 5.555555555555555% 62.666666666666664%;
+    
+}
+.ffgoogle{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7b95007f3377150730bbb5d1ddb477d6.png);
+    background-size: 722.2222222222222% 638.8888888888889%;
+    background-position: 83.92857142857143% 5.154639175257732%
+}
+
+.ffapple{
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/7b95007f3377150730bbb5d1ddb477d6.png);
+    background-size: 406.25% 359.375%;
+    background-position: 5.1020408163265305% 6.024096385542169%
+}
+
+.form__author{
+    font-size: 1.2rem;
+    padding: 9px 27px 0;
+    text-align: center;
+}
+
+.form__author-btn{
+    color: var(--primary-color);
+}
+.content__form-footer--group{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.4rem;
+    padding-top: 15px;
+    color: rgba(0,0,0,.26);
+}
+.content__form-footer--group>a{
+    color: var(--primary-color);
+    padding-left: 6px;
+}
